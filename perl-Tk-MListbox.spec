@@ -3,8 +3,8 @@
 %bcond_with	tests	# perform "make test" (requires working $DISPLAY)
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tk
-%define	pnam	MListbox
+%define		pdir	Tk
+%define		pnam	MListbox
 Summary:	Tk::MListbox Perl module - another "column" or "table" widget
 Summary(pl):	Modu³ Perla Tk::MListbox - widget "kolumnowy" lub "tabelkowy"
 Name:		perl-Tk-MListbox
