@@ -9,7 +9,7 @@ Summary:	Tk::MListbox Perl module - another "column" or "table" widget
 Summary(pl):	Modu³ Perla Tk::MListbox - widget "kolumnowy" lub "tabelkowy"
 Name:		perl-Tk-MListbox
 Version:	1.11
-Release:	2
+Release:	3
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
