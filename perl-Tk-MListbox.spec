@@ -41,7 +41,7 @@ nag³ówków kolumn. Po ponownym klikniêciu kolejno¶æ jest odwracana.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
