@@ -39,7 +39,7 @@ nag³ówków kolumn. Po ponownym klikniêciu kolejno¶æ jest odwracana.
 %setup -q -n %{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
