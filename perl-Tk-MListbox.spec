@@ -29,7 +29,7 @@ headers. A new click, and the sort order is reversed.
 Tk::MListbox to jeszcze jeden widget "kolumnowy" lub "tabelkowy".
 Dzia³a podobnie do Listbox, ale zamiast przechowywania ka¿dego wiersza
 jako skalaru, ka¿dy wiersz MListbox jest list± lub tablic±, w której
-ka¿dy element reprezentuje kolumnê w wierszu. Tk::MListBox pozwala
+ka¿dy element reprezentuje kolumnê w wierszu. Tk::MListbox pozwala
 u¿ytkownikowi zmieniaæ rozmiar kolumn ci±gn±c separator pomiêdzy
 kolumnami. U¿ytkownik mo¿e zmieniæ kolejno¶æ kolumn przeci±gaj±c ich
 nag³ówki. Dane mog± byæ posortowane przez klikniêcie jednego z
