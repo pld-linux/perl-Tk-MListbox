@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_with	tests	# perform "make test" (requires working $DISPLAY)
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Tk
 %define		pnam	MListbox
@@ -43,6 +47,8 @@ nag³ówków kolumn. Po ponownym klikniêciu kolejno¶æ jest odwracana.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
