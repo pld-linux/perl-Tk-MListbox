@@ -6,7 +6,7 @@
 %define		pdir	Tk
 %define		pnam	MListbox
 Summary:	Tk::MListbox Perl module - another "column" or "table" widget
-Summary(pl):	Modu³ Perla Tk::MListbox - widget "kolumnowy" lub "tabelkowy"
+Summary(pl.UTF-8):   ModuÅ‚ Perla Tk::MListbox - widget "kolumnowy" lub "tabelkowy"
 Name:		perl-Tk-MListbox
 Version:	1.11
 Release:	3
@@ -30,15 +30,15 @@ might change the order of the column by dragging the column headers.
 The data in the widget might be sorted by clicking one of the column
 headers. A new click, and the sort order is reversed.
 
-%description -l pl
+%description -l pl.UTF-8
 Tk::MListbox to jeszcze jeden widget "kolumnowy" lub "tabelkowy".
-Dzia³a podobnie do Listbox, ale zamiast przechowywania ka¿dego wiersza
-jako skalaru, ka¿dy wiersz MListbox jest list± lub tablic±, w której
-ka¿dy element reprezentuje kolumnê w wierszu. Tk::MListBox pozwala
-u¿ytkownikowi zmieniaæ rozmiar kolumn ci±gn±c separator pomiêdzy
-kolumnami. U¿ytkownik mo¿e zmieniæ kolejno¶æ kolumn przeci±gaj±c ich
-nag³ówki. Dane mog± byæ posortowane przez klikniêcie jednego z
-nag³ówków kolumn. Po ponownym klikniêciu kolejno¶æ jest odwracana.
+DziaÅ‚a podobnie do Listbox, ale zamiast przechowywania kaÅ¼dego wiersza
+jako skalaru, kaÅ¼dy wiersz MListbox jest listÄ… lub tablicÄ…, w ktÃ³rej
+kaÅ¼dy element reprezentuje kolumnÄ™ w wierszu. Tk::MListBox pozwala
+uÅ¼ytkownikowi zmieniaÄ‡ rozmiar kolumn ciÄ…gnÄ…c separator pomiÄ™dzy
+kolumnami. UÅ¼ytkownik moÅ¼e zmieniÄ‡ kolejnoÅ›Ä‡ kolumn przeciÄ…gajÄ…c ich
+nagÅ‚Ã³wki. Dane mogÄ… byÄ‡ posortowane przez klikniÄ™cie jednego z
+nagÅ‚Ã³wkÃ³w kolumn. Po ponownym klikniÄ™ciu kolejnoÅ›Ä‡ jest odwracana.
 
 %prep
 %setup -q -n %{pnam}-%{version}
