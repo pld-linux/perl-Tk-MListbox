@@ -6,7 +6,7 @@
 %define		pdir	Tk
 %define		pnam	MListbox
 Summary:	Tk::MListbox Perl module - another "column" or "table" widget
-Summary(pl.UTF-8):   Moduł Perla Tk::MListbox - widget "kolumnowy" lub "tabelkowy"
+Summary(pl.UTF-8):	Moduł Perla Tk::MListbox - widget "kolumnowy" lub "tabelkowy"
 Name:		perl-Tk-MListbox
 Version:	1.11
 Release:	3
