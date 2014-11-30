@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_with	tests	# perform "make test" (requires working $DISPLAY)
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Tk
 %define		pnam	MListbox
+%include	/usr/lib/rpm/macros.perl
 Summary:	Tk::MListbox Perl module - another "column" or "table" widget
 Summary(pl.UTF-8):	Moduł Perla Tk::MListbox - widget "kolumnowy" lub "tabelkowy"
 Name:		perl-Tk-MListbox
@@ -14,8 +14,9 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d9f6a2682f9a6381791acd2a01de0c82
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/Tk-MListbox/
 BuildRequires:	perl-Tk
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
